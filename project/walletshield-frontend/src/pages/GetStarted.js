@@ -57,17 +57,7 @@ function GetStarted() {
                     <button onClick={handleUpload} className="upload-button">Upload File</button>
                 </div>
 
-                <div className="api-upload-container">
-                    <p>Insert API Link</p>
-                    <input
-                        type="text"
-                        placeholder="Enter your API link here"
-                        value={apiLink}
-                        onChange={handleApiLinkChange}
-                        className="api-input"
-                    />
-                    <button onClick={handleApiSubmit} className="api-button">Submit API Link</button>
-                </div>
+
 
                 <p className="note">
                     Users can often download wallet transaction history in JSON format through blockchain explorers or APIs.
@@ -78,7 +68,7 @@ function GetStarted() {
         </div>
     );
 }
-
+//test
 export default GetStarted;
 
 

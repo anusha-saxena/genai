@@ -255,32 +255,7 @@ button:hover {
     background-color: #4834d4;
 }
 
-.api-upload-container {
-    margin-top: 30px;
-}
 
-.api-input {
-    width: 70%;
-    padding: 10px;
-    font-size: 1rem;
-    margin: 10px 0;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-.api-button {
-    background-color: #9c88ff;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    margin-top: 10px;
-    cursor: pointer;
-}
-
-.api-button:hover {
-    background-color: #7158e2;
-}
 
 .message {
     margin-top: 20px;
