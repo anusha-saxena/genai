@@ -204,3 +204,92 @@ button:hover {
     word-wrap: break-word; /* Allow the text to wrap inside the box */
     white-space: normal; /* Allow text to wrap normally */
 }
+
+
+
+.upload-section {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.upload-section h1 {
+    font-size: 2rem;
+    color: #6c5ce7;
+}
+
+.upload-section p {
+    font-size: 1rem;
+    margin: 10px 0;
+    color: #4a4a8a;
+}
+
+.file-upload-container {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.upload-icon {
+    display: inline-block;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #6c5ce7;
+    cursor: pointer;
+}
+
+.upload-icon span {
+    display: block;
+    margin-top: 5px;
+}
+
+.upload-button {
+    background-color: #6c5ce7;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.upload-button:hover {
+    background-color: #4834d4;
+}
+
+.api-upload-container {
+    margin-top: 30px;
+}
+
+.api-input {
+    width: 70%;
+    padding: 10px;
+    font-size: 1rem;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.api-button {
+    background-color: #9c88ff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.api-button:hover {
+    background-color: #7158e2;
+}
+
+.message {
+    margin-top: 20px;
+    font-size: 1rem;
+    color: #6c5ce7;
+}
+
+.note {
+    font-size: 0.9rem;
+    color: #888;
+    margin-top: 20px;
+}
